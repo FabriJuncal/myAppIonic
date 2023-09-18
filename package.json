@@ -1,7 +1,7 @@
 {
-  "name": "ceara",
+  "name": "my_app_ionic",
   "version": "1.0.0",
-  "author": "Micam Soluciones",
+  "author": "Fabricio Juncal",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "an-init-complete-new-build": "npm cache clean --force && npm install && npx jetify && ionic build && ionic cap add android && npx cap sync android && ionic cap open android",
@@ -57,7 +57,7 @@
     "@awesome-cordova-plugins/sqlite-porter": "^6.4.0",
     "@awesome-cordova-plugins/status-bar": "^6.4.0",
     "@awesome-cordova-plugins/wheel-selector": "^6.4.0",
-    "@capacitor/android": "5.3.0",
+    "@capacitor/android": "5.4.0",
     "@capacitor/app": "^5.0.0",
     "@capacitor/camera": "^5.0.7",
     "@capacitor/core": "^5.0.0",
@@ -87,6 +87,10 @@
     "cordova-sqlite-storage": "^6.1.0",
     "cordova-wheel-selector-plugin": "^1.1.7",
     "cordova.plugins.diagnostic": "^7.1.2",
+    "core-js": "^3.32.2",
+    "custom-event-polyfill": "^1.0.7",
+    "element-closest": "^3.0.2",
+    "es6-promise": "^4.2.8",
     "jetifier": "^2.0.0",
     "moment": "^2.29.3",
     "ng-circle-progress": "^1.7.1",
@@ -96,6 +100,8 @@
     "tinycolor2": "^1.6.0",
     "tslib": "^2.4.1",
     "uk.co.workingedge.cordova.plugin.sqliteporter": "^1.1.2",
+    "web-animations-js": "^2.3.2",
+    "whatwg-fetch": "^3.6.19",
     "zone.js": "~0.11.8"
   },
   "devDependencies": {

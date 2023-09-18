@@ -41,7 +41,27 @@
  *  (window as any).__Zone_enable_cross_context_check = true;
  *
  */
- 
+
+// Polyfill to support certain ECMAScript features in older browsers
+import 'core-js/full';
+
+// Polyfill to support Web Animations API in some browsers
+import 'web-animations-js';
+
+// Polyfill to support Element.closest() in browsers that don't support it
+import 'element-closest';
+
+// Polyfill to support CustomEvent in browsers that don't support it
+import 'custom-event-polyfill';
+
+// Polyfill to support Promises
+import 'es6-promise/auto';
+
+// Polyfill to support Fetch API
+import 'whatwg-fetch';
+
+
+
 import './zone-flags';
 
 /***************************************************************************************************
